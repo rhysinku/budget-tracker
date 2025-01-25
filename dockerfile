@@ -1,7 +1,7 @@
-FROM  node
+FROM node:23-alpine
 WORKDIR /app
 COPY package*.json ./
 RUN npm  install
 COPY . .
-EXPOSE 3000
-CMD ["npm", "dev"]
+CMD ["npm","run", "dev"]
+# docker run -p 5173:5173 docker-name
