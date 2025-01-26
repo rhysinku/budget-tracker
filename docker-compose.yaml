@@ -1,11 +1,14 @@
-# version: '3.8'
 
-# services:
-#   web:
-#     build: 
-#       context: .
-#     ports:
-#       - 5173:5173
-#     volumes:
-#       - .:/app
-    
+services:
+  web:
+    build: 
+      context: .
+    ports:
+      - 5173:5173
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+
+volumes:
+  node_modules:
