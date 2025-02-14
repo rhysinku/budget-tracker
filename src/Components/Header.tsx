@@ -1,10 +1,18 @@
 
 export const Header = () => {
     return (
-        <div>
-            <h1 className={'text-white text-9xl text-center '}>
-                BUDGET CALCULATOR
-            </h1>
+        <div className={'bg-secondary'}>
+         <div className={'container mx-auto py-4'}>
+             <header className={'flex justify-between items-center'}>
+                 <span className={'font-bold'}>LOGO</span>
+                 <nav>
+                     <ul className={'flex items-center gap-4'}>
+                         <li>Dashboard</li>
+                         <li>Monthly</li>
+                     </ul>
+                 </nav>
+             </header>
+         </div>
         </div>
     );
 };

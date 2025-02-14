@@ -5,7 +5,6 @@ function App() {
     return (
         <> <Header/>
            <div className={'h-screen flex items-center justify-center flex-col'}>
-
                <Calculator/>
            </div>
         </>
