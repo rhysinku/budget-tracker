@@ -1,2 +1,5 @@
 @import './assets/css/index.css';
+@plugin 'tailwindcss-animate';
+
+@custom-variant dark (&:is(.dark *));
 @import "tailwindcss";
